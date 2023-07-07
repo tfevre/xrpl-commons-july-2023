@@ -40,12 +40,12 @@ const main = async () => {
   //   }
   // );
   
-  await acceptNftOffer({
-    NFTokenSellOffer: "D570C6B1176F4F7BED4CD7A254183C38DEA99BF4D94453E7E9DA45DB416B12B4",
-  },
-  {
-    wallet: WALLET_2
-  })
+  // await acceptNftOffer({
+  //   NFTokenSellOffer: "D570C6B1176F4F7BED4CD7A254183C38DEA99BF4D94453E7E9DA45DB416B12B4",
+  // },
+  // {
+  //   wallet: WALLET_2
+  // })
 
   await client.disconnect();
 }
